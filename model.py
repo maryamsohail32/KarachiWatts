@@ -258,5 +258,8 @@ if __name__ == "__main__":
     df = load_data()
     df, encoders = preprocess(df)
     make_plots(df)
-    model, name, r2 = train(df)
-    print(f"\nDone. Model ready — R² = {r2:.4f}")
+    best_model, best_name, best_r2 = train(df)
+    print(f"\nDone. Model ready — R² = {best_r2:.4f}")
+
+    import joblib
+    joblib.dump(best_model, "random_forest_model.pkl")
