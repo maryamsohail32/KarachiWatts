@@ -2,7 +2,7 @@
 
 > *"Bijli kab aayegi?"* — KarachiWatts answers with AI.
 
-An intelligent load shedding prediction system for Karachi, combining Machine Learning with a Groq-powered chatbot (llama-3.3-70b). Built for **Lab 14 · BS Artificial Intelligence · DUET**.
+An intelligent load shedding prediction system for Karachi, combining Machine Learning with a Groq-powered chatbot (llama-3.3-70b). 
 
 ---
 
@@ -133,18 +133,6 @@ Random Forest selected as best model with **R² = 0.991**.
 
 ---
 
-## 🎓 Lab 14 Requirements — All Covered
 
-- ✅ Data loading & exploration (Pandas)
-- ✅ Data cleaning & preprocessing
-- ✅ Feature engineering
-- ✅ Visualizations (Matplotlib + Seaborn)
-- ✅ ML model training & evaluation (scikit-learn)
-- ✅ Model comparison & feature importance
-- ✅ AI chatbot (Groq llama-3.3-70b)
-- ✅ Real-world problem statement
-- ✅ Conclusions & analysis
-
----
-
-*Built with ❤️ for Karachi · BS AI · DUET*
+*Built with ❤️ for Karachi · 
+BY MARYAM SOHAIL AHMED*
