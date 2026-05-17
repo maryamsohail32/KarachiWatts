@@ -5,3 +5,6 @@ __pycache__/
 .DS_Store
 plots/*.png
 *.ipynb_checkpoints
+# Ignore model files
+*.pkl
+
