@@ -195,6 +195,7 @@ def train(df: pd.DataFrame):
         ax.set_ylabel("Importance")
         plt.xticks(rotation=45, ha="right")
         plt.tight_layout()
+        os.makedirs(PLOTS_DIR, exist_ok=True)
         plt.savefig(os.path.join(PLOTS_DIR, "7_feature_importance.png"), dpi=150)
         plt.close()
 
